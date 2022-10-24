@@ -1,0 +1,41 @@
+{
+	"info": {
+		"_postman_id": "05e47479-ad3e-4c48-959b-0ed381ccf3e9",
+		"name": "Postnam",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "10601828"
+	},
+	"item": [
+		{
+			"name": "http://localhost:3000/api/v1/loans/",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"customerName\": \"Jond Fang\",\n    \"phoneNumber\": \"1223234444\",\n    \"address\": \"N 435 Scottsale Rd 12322\",\n    \"loanAmount\": 55244,\n    \"Interest\": 0.9,\n    \"loanTermYears\": 9,\n    \"loanType\": \"Life\",\n    \"description\": \"Mouses\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/v1/loans/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"v1",
+						"loans",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

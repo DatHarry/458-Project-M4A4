@@ -1,0 +1,44 @@
+{
+	"info": {
+		"_postman_id": "05e47479-ad3e-4c48-959b-0ed381ccf3e9",
+		"name": "Postnam",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "10601828"
+	},
+	"item": [
+		{
+			"name": "http://localhost:3000/api/v1/loans/",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"customerName\": \"Winnie Fang\",\n    \"phoneNumber\": \"1223334444\",\n    \"address\": \"N 434 Scottsale Rd 12322\",\n    \"loanAmount\": 55544,\n    \"Interest\": 0.7,\n    \"loanTermYears\": 8,\n    \"loanType\": \"Car\",\n    \"description\": \"Car\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/v1/loans/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"v1",
+						"loans",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
